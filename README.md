@@ -53,3 +53,32 @@ Fetch Dogs App is a web application designed to help dog lovers search through a
 git clone https://github.com/Grishhma/fetch-dogs-app.git
 cd fetch-dogs-app
 ```
+
+### Install Dependencies
+```bash
+yarn install
+```
+Run the App Locally
+Start the development server:
+
+Using Yarn:
+```bash
+yarn start
+```
+Open http://localhost:3000 in your browser to view the app.
+
+## 🚀 Usage
+Login:
+On the login page, enter your name and email to authenticate. Upon a successful login, you will be redirected to the search page.
+
+Search for Dogs:
+Use the search interface to filter by breed, sort results, and paginate through available shelter dogs.
+
+Favorites and Matching:
+Click on a dog card to add it to your favorites. After selecting favorites, click on "Generate Match with Favorites" to see your adoption match.
+
+## 🌐 Deployment
+This app is deployed on GitHub Pages.
+
+Live Site:
+https://grishhma.github.io/fetch-dogs-app/
