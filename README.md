@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Fetch Dogs App 🐶
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fetch Dogs App is a web application designed to help dog lovers search through a database of shelter dogs with the goal of finding a perfect adoption match. The app features user authentication, dog search with filtering, sorting, pagination, and the ability to select favorites and generate a match.
 
-## Available Scripts
+## 📋 Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `yarn start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication:** 🔐  
+  Log in using your name and email. The authentication API sets an HttpOnly cookie for secure access.
+  
+- **Dog Search:** 🔍  
+  Browse shelter dogs with options to filter by breed, sort by breed, name, or age, and paginate through results.
+  
+- **Favorites and Matching:** ❤️  
+  Select your favorite dogs and generate an adoption match from your selection.
+  
+- **Responsive Design:** 📱💻  
+  Built with Material‑UI for a clean, responsive user interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `yarn test`
+- **Frontend:**  
+  - React ⚛️
+  - React Router 🔀
+  - Material‑UI 🎨
+  - Axios ⚡
+  
+- **API:**  
+  Interacts with a backend API to securely handle user authentication, search for shelter dogs, and generate matching recommendations.
+  
+- **Deployment:**  
+  Deployed on GitHub Pages 🚀.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation and Setup
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Yarn](https://yarnpkg.com/) or npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Grishhma/fetch-dogs-app.git
+cd fetch-dogs-app
+```
