@@ -69,7 +69,7 @@ Open http://localhost:3000 in your browser to view the app.
 
 ## 🚀 Usage
 - **Login:**
-   - On the login page, enter your name and email to authenticate. Upon a successful login, you will be redirected to the search page.
+On the login page, enter your name and email to authenticate. Upon a successful login, you will be redirected to the search page.
 
 Search for Dogs:
 Use the search interface to filter by breed, sort results, and paginate through available shelter dogs.
