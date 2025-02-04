@@ -71,10 +71,10 @@ Open http://localhost:3000 in your browser to view the app.
 - **Login:**
 On the login page, enter your name and email to authenticate. Upon a successful login, you will be redirected to the search page.
 
-Search for Dogs:
+- **Search for Dogs:**
 Use the search interface to filter by breed, sort results, and paginate through available shelter dogs.
 
-Favorites and Matching:
+- **Favorites and Matching:**
 Click on a dog card to add it to your favorites. After selecting favorites, click on "Generate Match with Favorites" to see your adoption match.
 
 ## 🌐 Deployment
